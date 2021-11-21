@@ -17,11 +17,11 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 cloudinary.config(
     cloud_name="djw2ks8ek",
-    api_keys="245669729881259",
+    api_key="245669729881259",
     api_secret="FUcSyfHSnr39Rv8zSiQ2VzEUOyo",
+    secure=True
 )
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
